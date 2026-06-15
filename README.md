@@ -4,6 +4,9 @@ A vendor-neutral analytical tool that calculates when it is economically rationa
 
 **Live app:** https://eda-tco-calculator.streamlit.app/
 
+# Creative Structure
+I developed this calculator over the course of several days, starting from the question 'when is it economically rational to accelerate a chip design block?' I researched and validated every default value against public industry sources (see REFERENCE.md for source citations). I designed the two-mode licensing system to reflect the real distinction between ELA-based and token-based EDA pricing, after determining that a single-mode model would oversimplify the economics. The implementation was built collaboratively with Claude Code under explicit agency constraints documented in CLAUDE.md; the modeling choices, formula validation, and economic framework are mine.
+
 ## What it does
 
 Models the economics of AI-augmented physical design flows across two licensing structures (ELA and token-based) and surfaces the break-even compute budget for any given assumption about the value of schedule acceleration.
