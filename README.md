@@ -2,7 +2,7 @@
 
 A vendor-neutral analytical tool that calculates when it is economically rational to spend money on AI-accelerated cloud compute to close a chip design block faster than a traditional human-driven flow.
 
-**Live app:** _link added after deployment_
+**Live app:** https://eda-tco-calculator.streamlit.app/
 
 ## What it does
 
